@@ -1,0 +1,6 @@
+{{ block title }} 
+遊戲結果 
+{{ endblock }} 
+{{ block content }} 
+此回合全體共答對{{group.total_right}}題，每人皆獲得{{ group.single_pay }} 報酬
+{{ next_button }} {{ include Constants.instructions_template }}{{ endblock }}

@@ -1,0 +1,19 @@
+{{ block title }} 遊戲回合 {{ endblock }} {{ block content }}
+你有5秒鐘的時間記住此表格中的數字，並在下一頁面填答
+<table style="border:3px #cccccc solid;" cellpadding="10" border='1'>
+  <tr>
+    <td>{{group.a}}</td>
+    <td>{{group.b}}</td>
+	<td>{{group.c}}</td>
+  </tr>
+  <tr>
+    <td>{{group.d}}</td>
+    <td>{{group.e}}</td>
+	<td>{{group.f}}</td>
+  </tr>
+  <tr>
+    <td>{{group.g}}</td>
+    <td>{{group.h}}</td>
+	<td>{{group.i}}</td>
+  </tr>
+</table>{{ next_button }} {{ endblock }}
